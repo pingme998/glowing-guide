@@ -1,0 +1,103 @@
+curl 'https://app.degoo.com/assets/icons/clear.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/1-es2015.7660cd7c10de9031b550.worker.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/remove_circle_outlined.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"SetUploadFile3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","FileInfos":[{"ParentID":"15447033327","Checksum":"ChRQ-ETO9BF3vIruKDX489Un7T0QTBAA","Name":"aaa","Size":"5","CreationTime":"1626591739004","Data":"YW5hcwo"}]},"query":"mutation SetUploadFile3($Token: String\u0021, $FileInfos: [FileInfoUpload3]\u0021) {\\n    setUploadFile3(Token: $Token, FileInfos: $FileInfos)\\n  }"}' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'authority: production-appsync.degoo.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw $'{"operationName":"SetUploadFile3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","FileInfos":[{"ParentID":"15447033327","Checksum":"ChRQ-ETO9BF3vIruKDX489Un7T0QTBAA","Name":"aaa","Size":"5","CreationTime":"1626591739004","Data":"YW5hcwo"}]},"query":"mutation SetUploadFile3($Token: String\u0021, $FileInfos: [FileInfoUpload3]\u0021) {\\n    setUploadFile3(Token: $Token, FileInfos: $FileInfos)\\n  }"}' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=2130032866&sr=1600x720&_gaz=1&ul=en-us&cid=1711313258.1626200819&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dt=Degoo%20Cloud&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&sid=1626591546&sct=3&seg=1&en=actions&_et=29299&ep.event_category=actions&ep.event_label=SetUploadFile&epn.value=1' \
+  -X 'POST' \
+  -H 'authority: analytics.google.com' \
+  -H 'content-length: 0' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __Secure-3PSID=_gdi-1WkW6oO8OcJvkshMOE07Cf_Ls-NZHR3yWo27vbxINooWRy0CZRAR4zS1hNdreHdNw.; __Secure-3PAPISID=YP4YQRX09JZOO0Wz/A1QrfzucpkKY-9HzV; 1P_JAR=2021-07-18-06; NID=219=g9vxrC4bpAP-Oh-s0dpZGersg681YUlYL3sqAWRlywqSil7ghF-8BmFQIaJxPs-vRItMcmfW4XBUzcMRHbJkdMFRB8PpX11VaejdF32SDRdWKztlJNwlueYnwilCsuW2n4-DgCmbxp_isCSFcoaTArMxNwL3JBXP14maZV94FhW6x_E1GCmgvXQJ3mM-badI6EK-EYjvcwpnHQJMptummeblYl2jd9tmbkcupLA; __Secure-3PSIDCC=AJi4QfE3SGgRmc5RtETm4Pf5nr-jbBzufH6D0Yx48i03aoq-zWNt5vBNKyBnxa6du1N1qWOdJg' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'authority: production-appsync.degoo.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw $'{"operationName":"GetUserInfo3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y"},"query":"query GetUserInfo3($Token: String\u0021) {\\n    getUserInfo3(Token: $Token) {\\n      ID\\n      FirstName\\n      LastName\\n      Email\\n      AvatarURL\\n      CountryCode\\n      LanguageCode\\n      Phone\\n      AccountType\\n      UsedQuota\\n      TotalQuota\\n      OAuth2Provider\\n      GPMigrationStatus\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=2130032866&sr=1600x720&_gaz=1&ul=en-us&cid=1711313258.1626200819&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dt=Degoo%20Cloud&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&sid=1626591546&sct=3&seg=1&en=actions&_et=29299&ep.event_category=actions&ep.event_label=SetUploadFile&epn.value=1' \
+  -X 'POST' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  --compressed ;
+curl 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&z=813216846' \
+  -H 'authority: www.google.co.in' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __Secure-3PSID=_gdi-1WkW6oO8OcJvkshMOE07Cf_Ls-NZHR3yWo27vbxINooWRy0CZRAR4zS1hNdreHdNw.; __Secure-3PAPISID=YP4YQRX09JZOO0Wz/A1QrfzucpkKY-9HzV; NID=218=lGENwFzmqskC5wHle3NORZhVX_406d6kybz5C8Safqf9vOaMBTIPi6JSQTb3JJdVfGjQlo0lV7GtdHcyycxxhQginkK3zQbryiXfVzDm2ifQ42XiwZDQSwX5qSoDv9hRHA1yn08Sn0zIUtr6V11JFCvKxeiygpL299iDdGtPeAY' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=2130032866&t=event&_s=4&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dp=%2Ffiles%2F0&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&ec=actions&ea=actions&el=SetUploadFile&ev=1&_u=SACAAUAB~&cid=1711313258.1626200819&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=750466623' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"GetUserInfo3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y"},"query":"query GetUserInfo3($Token: String\u0021) {\\n    getUserInfo3(Token: $Token) {\\n      ID\\n      FirstName\\n      LastName\\n      Email\\n      AvatarURL\\n      CountryCode\\n      LanguageCode\\n      Phone\\n      AccountType\\n      UsedQuota\\n      TotalQuota\\n      OAuth2Provider\\n      GPMigrationStatus\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&z=813216846' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=2130032866&t=event&_s=4&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dp=%2Ffiles%2F0&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&ec=actions&ea=actions&el=SetUploadFile&ev=1&_u=SACAAUAB~&cid=1711313258.1626200819&uid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=750466623' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/checkmark_circle_outlined.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed
