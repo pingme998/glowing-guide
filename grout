@@ -1,1 +1,625 @@
 https://cloud.degoo.com/drive-gvhty7mil3ao
+
+curl 'https://degoo.com/me/signup' \
+  -H 'authority: degoo.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'origin: https://degoo.com' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://degoo.com/' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __RequestVerificationToken=VgIEvPKh7xe-5-OIT95IFDZ23qSCBAsQ-ILvSIx8sbv-oU6rAwUlXF5ISc5Om2sYBCn2LzyQLNKTeEVV0pdnzOaEuKGRBtX1ycLzwnr76381; pid=; invite=; AcceptCookies=N6gYU7F5ytin0I9oXmQVEK8uyOLPeOqZbqyr88VlRJvBdg8JqCCsvmTWf8O1zeVS2vd32Nl3BFgphvjPAS7mIw; auid=y1DlDKNpquHlyecaXAQchMNwnBc; ulc=gm5B8q_kuCo-0Phvak1Kgb4CGue6Jo1AQh16b2BShThVuyfaFmS3XCE3w3Nt2I1TjOXixeKprkIlubkfYm0IXQ; .ASPXAUTH=8E446C774072963B0BEB5BD710725A453275EEA62D9D977EAC4C6F229C188479DFEB02E8C1B050C8F40416A4B8A5C479DF19A2D8CF5D5084EDAD96134958AFF6B22F487E61CE3B898430DDC6E44674B6EC3EEA631430407B13E67529F792520DEA46743251963DEFEF6914CCAEDC6B22; _ga=GA1.2.1711313258.1626200819; refreshToken=ADQmc0..3QzYWWke9VEgzQKd30RG___gqbbAlbTyqVN3SNVxf9Ix8Uj1xZyaA7IXHeLf7E7aXmpNcVOT1QaRKA; _ga_668MSHBNLB=GS1.1.1626347358.2.1.1626347661.34; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D' \
+  --data-raw '__RequestVerificationToken=kBRfsgJiglm-qMRNe_Cvrfo0vY2o1j8u8nueOah18Gw0cunhE6ajDX6G3-Hf0Gm0DhiQT6wqNprZtkm5K2tFkdFMcL13C-qFMAQ7O49OWyU1&PremiumID=&Invite=1FeP1jODTNtc1&RedirectUrl=&Action=Signup&Source=&PromotionID=&Email=babunambootiri123%40gmail.com&Password=BaBu%40qqW%40q' \
+  --compressed ;
+curl 'https://degoo.com/app' \
+  -H 'authority: degoo.com' \
+  -H 'cache-control: max-age=0' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'sec-fetch-dest: document' \
+  -H 'referer: https://degoo.com/' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __RequestVerificationToken=VgIEvPKh7xe-5-OIT95IFDZ23qSCBAsQ-ILvSIx8sbv-oU6rAwUlXF5ISc5Om2sYBCn2LzyQLNKTeEVV0pdnzOaEuKGRBtX1ycLzwnr76381; pid=; invite=; AcceptCookies=N6gYU7F5ytin0I9oXmQVEK8uyOLPeOqZbqyr88VlRJvBdg8JqCCsvmTWf8O1zeVS2vd32Nl3BFgphvjPAS7mIw; _ga=GA1.2.1711313258.1626200819; _ga_668MSHBNLB=GS1.1.1626347358.2.1.1626347661.34; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; lang=; auid=6Ws-5Z0mJMYrCbhYyS5UA4ZQo8s; ulc=LlxZ1cKgKGS-SK-J-2j-JVFQ2v9vvu8vrFrhrykaGT1w8WBTNpbTLN8M9P8M_4R3k-45V-8enOTCvjctn_QcPQ; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0MywiZXhwIjoxNjI2NTk1MTQzLCJpYXQiOjE2MjY1OTE1NDMsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.6Tx8JOghrtjFoKzczX42c-DlaSmrMMDjX9vRCDfcETQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0' \
+  --compressed ;
+curl 'https://app.degoo.com/files/0' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'Origin: https://degoo.com' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Referer: https://degoo.com/' \
+  --compressed ;
+curl 'https://app.degoo.com/styles.16a5ddeeaf4886b9be82.css' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/runtime-es2015.1c0a353ec5c777c2fb61.js' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/polyfills-es2015.04cb6cf2b00bfa357ac4.js' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/main-es2015.f35de6c83799ab838ccf.js' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/i18n/translations/en.json' \
+  -H 'authority: app.degoo.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/files/0' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; _ga=GA1.2.1711313258.1626200819; _ga_668MSHBNLB=GS1.1.1626347358.2.1.1626347661.34; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y' \
+  -H 'if-modified-since: Wed, 14 Jul 2021 06:53:50 GMT' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/i18n/en.json' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/i18n/translations/en.json' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2' \
+  -H 'Accept: */*' \
+  -H 'Referer: ' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/manifest.webmanifest' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/icon-144x144.png' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googletagmanager.com/gtag/js?id=UA-36877698-1' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googleoptimize.com/optimize.js?id=OPT-M5H55H5' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googletagmanager.com/gtag/js?id=UA-36877698-1' \
+  -H 'authority: www.googletagmanager.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://www.googleoptimize.com/optimize.js?id=OPT-M5H55H5' \
+  -H 'authority: www.googleoptimize.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'if-modified-since: Thu, 15 Jul 2021 09:00:00 GMT' \
+  --compressed ;
+curl 'https://app.degoo.com/14-es2015.d903d1b6d548f4167cfc.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/15-es2015.2ae34971c8b7ac52cd33.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/16-es2015.7fce5725f3e9b8d906f0.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/21-es2015.293b45bbbea390f33edd.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/common-es2015.f95e221ef5b2f5c4c116.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googletagmanager.com/gtag/js?id=G-668MSHBNLB&l=dataLayer&cx=c' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.googletagmanager.com/gtag/js?id=G-668MSHBNLB&l=dataLayer&cx=c' \
+  -H 'authority: www.googletagmanager.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://app.degoo.com/2-es2015.511349fb0dc623a7f5f1.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/3-es2015.08185446ab0834f72185.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/1-es2015.f78b553431884c8b8e3b.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/4-es2015.2cad56d506a6d2b5cda7.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/5-es2015.9b4d63798ca32e9dcc7d.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/8-es2015.a7507aa4f92072b2856b.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/7-es2015.8973bb01a146cfceb6c0.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/6-es2015.e5e83349e83bd370e7a1.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/9-es2015.b405d8dd555d59ebdf61.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/10-es2015.cb9aca169deec541ec43.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/11-es2015.b4dcbc36194181288f75.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/12-es2015.b6e75b01fc5978a3bbfa.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/13-es2015.12db24ab67cc22cb18f8.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=35089699&sr=1600x720&_gaz=1&ul=en-us&cid=1711313258.1626200819&_s=1&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dt=Degoo%20Cloud&sid=1626591546&sct=3&seg=0&en=page_view&_ss=2' \
+  -X 'POST' \
+  -H 'authority: analytics.google.com' \
+  -H 'content-length: 0' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __Secure-3PSID=_gdi-1WkW6oO8OcJvkshMOE07Cf_Ls-NZHR3yWo27vbxINooWRy0CZRAR4zS1hNdreHdNw.; __Secure-3PAPISID=YP4YQRX09JZOO0Wz/A1QrfzucpkKY-9HzV; 1P_JAR=2021-07-18-06; NID=219=g9vxrC4bpAP-Oh-s0dpZGersg681YUlYL3sqAWRlywqSil7ghF-8BmFQIaJxPs-vRItMcmfW4XBUzcMRHbJkdMFRB8PpX11VaejdF32SDRdWKztlJNwlueYnwilCsuW2n4-DgCmbxp_isCSFcoaTArMxNwL3JBXP14maZV94FhW6x_E1GCmgvXQJ3mM-badI6EK-EYjvcwpnHQJMptummeblYl2jd9tmbkcupLA; __Secure-3PSIDCC=AJi4QfE3SGgRmc5RtETm4Pf5nr-jbBzufH6D0Yx48i03aoq-zWNt5vBNKyBnxa6du1N1qWOdJg' \
+  --compressed ;
+curl 'https://stats.g.doubleclick.net/g/collect?v=2&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1' \
+  -X 'POST' \
+  -H 'authority: stats.g.doubleclick.net' \
+  -H 'content-length: 0' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: IDE=AHWqTUlBo2tLEVqIX10FbvQvdKb3VEhlWh_BIBv06TM4eHvr1OUfwq9wYCSb3LJw' \
+  --compressed ;
+curl 'https://www.google-analytics.com/analytics.js' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'if-modified-since: Wed, 09 Jun 2021 17:36:57 GMT' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=35089699&sr=1600x720&_gaz=1&ul=en-us&cid=1711313258.1626200819&_s=1&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dt=Degoo%20Cloud&sid=1626591546&sct=3&seg=0&en=page_view&_ss=2' \
+  -X 'POST' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  --compressed ;
+curl 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1&z=407215018' \
+  -H 'authority: www.google.co.in' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __Secure-3PSID=_gdi-1WkW6oO8OcJvkshMOE07Cf_Ls-NZHR3yWo27vbxINooWRy0CZRAR4zS1hNdreHdNw.; __Secure-3PAPISID=YP4YQRX09JZOO0Wz/A1QrfzucpkKY-9HzV; NID=218=lGENwFzmqskC5wHle3NORZhVX_406d6kybz5C8Safqf9vOaMBTIPi6JSQTb3JJdVfGjQlo0lV7GtdHcyycxxhQginkK3zQbryiXfVzDm2ifQ42XiwZDQSwX5qSoDv9hRHA1yn08Sn0zIUtr6V11JFCvKxeiygpL299iDdGtPeAY' \
+  --compressed ;
+curl 'https://stats.g.doubleclick.net/g/collect?v=2&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1' \
+  -X 'POST' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  --compressed ;
+curl 'https://www.google-analytics.com/analytics.js' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-668MSHBNLB&cid=1711313258.1626200819&gtm=2oe7e0&aip=1&z=407215018' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'authority: production-appsync.degoo.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw $'{"operationName":"GetUserInfo3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y"},"query":"query GetUserInfo3($Token: String\u0021) {\\n    getUserInfo3(Token: $Token) {\\n      ID\\n      FirstName\\n      LastName\\n      Email\\n      AvatarURL\\n      CountryCode\\n      LanguageCode\\n      Phone\\n      AccountType\\n      UsedQuota\\n      TotalQuota\\n      OAuth2Provider\\n      GPMigrationStatus\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'authority: production-appsync.degoo.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw $'{"operationName":"GetFileChildren3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","ParentID":"-1","Limit":100,"Order":3},"query":"query GetFileChildren3(\\n    $Token: String\u0021\\n    $ParentID: String\u0021\\n    $Limit: Int\u0021\\n    $Order: Int\\n    $NextToken: String\\n  ) {\\n    getFileChildren3(\\n      Token: $Token\\n      ParentID: $ParentID\\n      Limit: $Limit\\n      Order: $Order\\n      NextToken: $NextToken\\n    ) {\\n      Items {\\n        ID\\n        MetadataID\\n        UserID\\n        DeviceID\\n        MetadataKey\\n        Name\\n        FilePath\\n        LocalPath\\n        LastUploadTime\\n        LastModificationTime\\n        ParentID\\n        Category\\n        Size\\n        Platform\\n        URL\\n        ThumbnailURL\\n        CreationTime\\n        IsSelfLiked\\n        Likes\\n        IsHidden\\n        IsInRecycleBin\\n        Description\\n        Location2 {\\n          Country\\n          Province\\n          Place\\n          GeoLocation {\\n            Latitude\\n            Longitude\\n          }\\n        }\\n        Data\\n        DataBlock\\n        CompressionParameters\\n        Shareinfo {\\n          Status\\n          ShareTime\\n        }\\n        Distance\\n        OptimizedURL\\n        Country\\n        Province\\n        Place\\n        GeoLocation {\\n          Latitude\\n          Longitude\\n        }\\n        Location\\n        IsShared\\n        ShareTime\\n      }\\n      NextToken\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'authority: production-appsync.degoo.com' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --data-raw $'{"operationName":"GetFileChildren3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","ParentID":"0","Limit":50,"Order":3},"query":"query GetFileChildren3(\\n    $Token: String\u0021\\n    $ParentID: String\u0021\\n    $Limit: Int\u0021\\n    $Order: Int\\n    $NextToken: String\\n  ) {\\n    getFileChildren3(\\n      Token: $Token\\n      ParentID: $ParentID\\n      Limit: $Limit\\n      Order: $Order\\n      NextToken: $NextToken\\n    ) {\\n      Items {\\n        ID\\n        MetadataID\\n        UserID\\n        DeviceID\\n        MetadataKey\\n        Name\\n        FilePath\\n        LocalPath\\n        LastUploadTime\\n        LastModificationTime\\n        ParentID\\n        Category\\n        Size\\n        Platform\\n        URL\\n        ThumbnailURL\\n        CreationTime\\n        IsSelfLiked\\n        Likes\\n        IsHidden\\n        IsInRecycleBin\\n        Description\\n        Location2 {\\n          Country\\n          Province\\n          Place\\n          GeoLocation {\\n            Latitude\\n            Longitude\\n          }\\n        }\\n        Data\\n        DataBlock\\n        CompressionParameters\\n        Shareinfo {\\n          Status\\n          ShareTime\\n        }\\n        Distance\\n        OptimizedURL\\n        Country\\n        Province\\n        Place\\n        GeoLocation {\\n          Latitude\\n          Longitude\\n        }\\n        Location\\n        IsShared\\n        ShareTime\\n      }\\n      NextToken\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/fonts/TitlingFBGothicNormalRegular.woff2' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/fonts/TitlingFBGothicMedium.woff2' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"GetUserInfo3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y"},"query":"query GetUserInfo3($Token: String\u0021) {\\n    getUserInfo3(Token: $Token) {\\n      ID\\n      FirstName\\n      LastName\\n      Email\\n      AvatarURL\\n      CountryCode\\n      LanguageCode\\n      Phone\\n      AccountType\\n      UsedQuota\\n      TotalQuota\\n      OAuth2Provider\\n      GPMigrationStatus\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"GetFileChildren3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","ParentID":"-1","Limit":100,"Order":3},"query":"query GetFileChildren3(\\n    $Token: String\u0021\\n    $ParentID: String\u0021\\n    $Limit: Int\u0021\\n    $Order: Int\\n    $NextToken: String\\n  ) {\\n    getFileChildren3(\\n      Token: $Token\\n      ParentID: $ParentID\\n      Limit: $Limit\\n      Order: $Order\\n      NextToken: $NextToken\\n    ) {\\n      Items {\\n        ID\\n        MetadataID\\n        UserID\\n        DeviceID\\n        MetadataKey\\n        Name\\n        FilePath\\n        LocalPath\\n        LastUploadTime\\n        LastModificationTime\\n        ParentID\\n        Category\\n        Size\\n        Platform\\n        URL\\n        ThumbnailURL\\n        CreationTime\\n        IsSelfLiked\\n        Likes\\n        IsHidden\\n        IsInRecycleBin\\n        Description\\n        Location2 {\\n          Country\\n          Province\\n          Place\\n          GeoLocation {\\n            Latitude\\n            Longitude\\n          }\\n        }\\n        Data\\n        DataBlock\\n        CompressionParameters\\n        Shareinfo {\\n          Status\\n          ShareTime\\n        }\\n        Distance\\n        OptimizedURL\\n        Country\\n        Province\\n        Place\\n        GeoLocation {\\n          Latitude\\n          Longitude\\n        }\\n        Location\\n        IsShared\\n        ShareTime\\n      }\\n      NextToken\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"GetFileChildren3","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y","ParentID":"0","Limit":50,"Order":3},"query":"query GetFileChildren3(\\n    $Token: String\u0021\\n    $ParentID: String\u0021\\n    $Limit: Int\u0021\\n    $Order: Int\\n    $NextToken: String\\n  ) {\\n    getFileChildren3(\\n      Token: $Token\\n      ParentID: $ParentID\\n      Limit: $Limit\\n      Order: $Order\\n      NextToken: $NextToken\\n    ) {\\n      Items {\\n        ID\\n        MetadataID\\n        UserID\\n        DeviceID\\n        MetadataKey\\n        Name\\n        FilePath\\n        LocalPath\\n        LastUploadTime\\n        LastModificationTime\\n        ParentID\\n        Category\\n        Size\\n        Platform\\n        URL\\n        ThumbnailURL\\n        CreationTime\\n        IsSelfLiked\\n        Likes\\n        IsHidden\\n        IsInRecycleBin\\n        Description\\n        Location2 {\\n          Country\\n          Province\\n          Place\\n          GeoLocation {\\n            Latitude\\n            Longitude\\n          }\\n        }\\n        Data\\n        DataBlock\\n        CompressionParameters\\n        Shareinfo {\\n          Status\\n          ShareTime\\n        }\\n        Distance\\n        OptimizedURL\\n        Country\\n        Province\\n        Place\\n        GeoLocation {\\n          Latitude\\n          Longitude\\n        }\\n        Location\\n        IsShared\\n        ShareTime\\n      }\\n      NextToken\\n    }\\n  }"}' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/fonts/TitlingFBGothicNormalRegular.woff2' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/fonts/TitlingFBGothicMedium.woff2' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/grid_view.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/list_view.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAABQAQCdASoBAAEAAQAaJQBOgCgAAP783pUYsPDa/xQ81vYOmAAAAA==' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/degoo_logo_white.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/search.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_documents.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_music.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_gallery.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_favorites.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_collections.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/cat_recycle-bin.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/upload_on_cloud.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-expand_more-24px.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/brush.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/ic_moments_black_24_dp.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/file.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/share.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-add-24px.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/user.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&a=35089699&t=pageview&_s=1&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=563744284' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=35089699&t=pageview&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=1714913293' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=35089699&t=pageview&_s=3&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dp=%2Ffiles%2F0&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=1148269701' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&a=35089699&t=pageview&_s=1&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=563744284' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=35089699&t=pageview&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=1714913293' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://www.google-analytics.com/collect?v=1&_v=j91&aip=1&a=35089699&t=pageview&_s=3&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dp=%2Ffiles%2F0&ul=en-us&de=UTF-8&dt=Degoo%20Cloud&sd=24-bit&sr=1600x720&vp=720x503&je=0&_u=YADAAUAB~&cid=1711313258.1626200819&tid=UA-36877698-1&_gid=1251934464.1626591548&gtm=2ou7e0&z=1148269701' \
+  -H 'authority: www.google-analytics.com' \
+  -H 'accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/degoo_logo_white.svg' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/folder_add.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/no_files.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/onboarding_4.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-chevron_right-24px.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/onboarding.png' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-chevron_left-24px.svg' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-chevron_right-24px.svg' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/images/onboarding.png' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/assets/icons/baseline-chevron_left-24px.svg' \
+  -H 'Referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://app.degoo.com/17-es2015.850a7d22ba77926061d2.js' \
+  -H 'Referer: https://app.degoo.com/files/0' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=35089699&sr=1600x720&ul=en-us&cid=1711313258.1626200819&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dt=Degoo%20Cloud&sid=1626591546&sct=3&seg=0&en=scroll&_et=83&epn.percent_scrolled=90' \
+  -X 'POST' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  --compressed ;
+curl 'https://analytics.google.com/g/collect?v=2&tid=G-668MSHBNLB&gtm=2oe7e0&_p=35089699&sr=1600x720&ul=en-us&cid=1711313258.1626200819&_s=2&dl=https%3A%2F%2Fapp.degoo.com%2Ffiles%2F0&dr=https%3A%2F%2Fdegoo.com%2F&dt=Degoo%20Cloud&sid=1626591546&sct=3&seg=0&en=scroll&_et=83&epn.percent_scrolled=90' \
+  -X 'POST' \
+  -H 'authority: analytics.google.com' \
+  -H 'content-length: 0' \
+  -H 'accept: */*' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'origin: https://app.degoo.com' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'sec-fetch-mode: no-cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __Secure-3PSID=_gdi-1WkW6oO8OcJvkshMOE07Cf_Ls-NZHR3yWo27vbxINooWRy0CZRAR4zS1hNdreHdNw.; __Secure-3PAPISID=YP4YQRX09JZOO0Wz/A1QrfzucpkKY-9HzV; 1P_JAR=2021-07-18-06; NID=219=g9vxrC4bpAP-Oh-s0dpZGersg681YUlYL3sqAWRlywqSil7ghF-8BmFQIaJxPs-vRItMcmfW4XBUzcMRHbJkdMFRB8PpX11VaejdF32SDRdWKztlJNwlueYnwilCsuW2n4-DgCmbxp_isCSFcoaTArMxNwL3JBXP14maZV94FhW6x_E1GCmgvXQJ3mM-badI6EK-EYjvcwpnHQJMptummeblYl2jd9tmbkcupLA; __Secure-3PSIDCC=AJi4QfE3SGgRmc5RtETm4Pf5nr-jbBzufH6D0Yx48i03aoq-zWNt5vBNKyBnxa6du1N1qWOdJg' \
+  --compressed ;
+curl 'https://app.degoo.com/ngsw.json?ngsw-cache-bust=0.7040130957081498' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/1-es2015.b521015602d6c7092e1a.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/11-es2015.0e05815870184f17b5c3.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/15-es2015.0b76cbfafde7e019cc6f.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/17-es2015.c015f8d4a4e551d10f5f.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/172-es2015.2125f568cb90ab54e3e9.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/177-es2015.ce2791da4ce59622ae55.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed ;
+curl 'https://app.degoo.com/21-es2015.96773190fff5275f0373.js' \
+  -H 'authority: app.degoo.com' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'accept: */*' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://app.degoo.com/ngsw-worker-polyfill.js' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: __stripe_mid=ff59504d-b067-4c4a-af92-a89e6bd90e8d8f8d7e; __stripe_sid=4813a1c8-a258-4860-855a-b669f3afe10513c7c8; mp_0357aa173096b5d9ada88030fbb1de30_mixpanel=%7B%22distinct_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24device_id%22%3A%20%2217aa1017b09186-06d88dc34b4fbc-746b0855-119400-17aa1017b0aad%22%2C%22%24search_engine%22%3A%20%22google%22%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fwww.google.com%2F%22%2C%22%24initial_referring_domain%22%3A%20%22www.google.com%22%7D; refreshToken=ADS2op..8Xxmp3TkuC-8FyXorPfqGgbCNLvicn-fhepBCGjRwG9Z9GZxf7s05CUs4i3RAdCWEGSNGxiVaC1ORQ; .ASPXAUTH=691E400850F73A0E8C5A65DFABAF4DE85DEE1F26E9CC479A1A69DCF9F2331E1AB857AD4A03AFBF465EE32EB570D8B0CF9D9E01EC806E9D1CE79220BE0BA8FA5121018F549A277957C372A5E766C245971C97B143A06BBEF20BBC0AA8D1E98B21C261FF599FCED281926A2BCC55704B27EA03C0DF5DAA276E922A8F5D7FC4722DDE4D1EF39E3A3B182BA11E51BBB157E0; login=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ2MjQzOCIsIm5iZiI6MTYyNjU5MTU0NCwiZXhwIjoxNjI2NTk1MTQ0LCJpYXQiOjE2MjY1OTE1NDQsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.iwCPFq-QhNh8drkOgqdBulTVxV_dyVLMz_qcaEW2l4Y; _ga_668MSHBNLB=GS1.1.1626591546.3.0.1626591547.59; _ga=GA1.2.1711313258.1626200819; _gid=GA1.2.1251934464.1626591548' \
+  --compressed
