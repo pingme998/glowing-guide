@@ -1,0 +1,21 @@
+curl 'https://production-appsync.degoo.com/graphql' \
+  -H 'Referer: ' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'x-api-key: da2-vs6twz5vnjdavpqndtbzg3prra' \
+  -H 'content-type: application/json' \
+  --data-raw $'{"operationName":"GetBucketWriteAuth4","variables":{"Token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTQ3NzM3MiIsIm5iZiI6MTYyNjc1Nzk3OCwiZXhwIjoxNjI2NzYxNTc4LCJpYXQiOjE2MjY3NTc5NzgsImlzcyI6ImRlZ29vLmNvbSIsImF1ZCI6ImRlZ29vLmNvbSJ9.Z9Pvpof1tlVecdR1JsvPJj8oCgb-me12OsJPiAtA2sI","ParentID":"15458822070","StorageUploadInfos":[{"FileName":"tresurecloudfinal-main.zip","Checksum":"ChRAIROGQ3UqIt1oaNLJ30FAQgHQLBAA","Size":"41964"}]},"query":"query GetBucketWriteAuth4(\\n    $Token: String\u0021\\n    $ParentID: String\u0021\\n    $StorageUploadInfos: [StorageUploadInfo2]\\n  ) {\\n    getBucketWriteAuth4(\\n      Token: $Token\\n      ParentID: $ParentID\\n      StorageUploadInfos: $StorageUploadInfos\\n    ) {\\n      AuthData {\\n        PolicyBase64\\n        Signature\\n        BaseURL\\n        KeyPrefix\\n        AccessKey {\\n          Key\\n          Value\\n        }\\n        ACL\\n        AdditionalBody {\\n          Key\\n          Value\\n        }\\n      }\\n      Error\\n    }\\n  }"}' \
+  --compressed
+
+curl 'https://s3.wasabisys.com/degoo-production-large-file-us-east1.degoo.info/' \
+  -X 'OPTIONS' \
+  -H 'Connection: keep-alive' \
+  -H 'Accept: */*' \
+  -H 'Access-Control-Request-Method: POST' \
+  -H 'Access-Control-Request-Headers: ngsw-bypass' \
+  -H 'Origin: https://app.degoo.com' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  --compressed
